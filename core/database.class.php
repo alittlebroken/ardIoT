@@ -5,7 +5,7 @@
  * @author Paul Lockyer <plockyer@googlemail.com>
  *
  */
- class Database(){
+ class Database{
  
      /**
       * @param string $_host host where the DB resides
@@ -60,7 +60,7 @@
        $this->_name = DBNAME;
        $this->_port = DBPORT;
        $this->_charset = DBCHARSET;
-       $this->_uid = DBUSER;
+       $this->_uid = DBUID;
        $this->_pass = DBPASS;
      
        // Create the connection string

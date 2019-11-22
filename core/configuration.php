@@ -11,7 +11,7 @@
   *
   */
   define("DBHOST","localhost");
-  define("DBNAME","ardiot");
+  define("DBNAME","ardIoT");
   define("DBPORT","3306");
   define("DBCHARSET","utf8mb4");
   define("DBUID","ardiot_admin");
